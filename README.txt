@@ -4,7 +4,7 @@ FIle JS utama   : ./src/app.JS
 
 
 Konten Data persebaran masih bersifat statis dan kurang akurat
-Berita yang disajikan bersifat fiktif
+Beberapa berita yang disajikan bersifat fiktif
 Beberapa Link tidak menuju ke manapun
 
 
