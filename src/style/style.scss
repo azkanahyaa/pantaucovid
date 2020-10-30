@@ -1,0 +1,38 @@
+@import './scss/variables';
+@import './scss/helper';
+@import './scss/components';
+@import './scss/navbar';
+@import './scss/content';
+@import './scss/footer';
+@import './scss/animations';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+p, a, li {
+    @include body-txt;
+}
+
+h2  {
+    @include header;
+}
+
+h3 {
+    @include sub-header;
+}
+
+i {
+    margin-left: 8px;
+    margin-right: 8px;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantau Covid</title>
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="icon" sizes="192x192" href="./src/images/brand-icon.png">
+    <link rel="apple-touch-icon" href="./src/images/brand-icon.png">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="left-section">
+                <a href="." class="app-name">
+                    <img src="./src/images/brand-logo.png" alt="Logo" width="auto" height="100%">
+                </a>
+            </div>
+            <div class="right-section">
+                <nav>
+                    <i class="mdi mdi-menu d-block d-md-none"></i>
+                    <ul>
+                        <i class="mdi mdi-close-thick d-block d-md-none"></i>
+                        <li><a href="#persebaran"  class="active">Persebaran</a></li>
+                        <li><a href="#edukasi">Edukasi</a></li>
+                        <li><a href="#berita">Berita</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="persebaran">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Data Persebaran COVID-19 Indonesia</h2>
+                    <div class="left-section">
+                        <p>diperbaharui pada: 26-10-2020</p>
+                    </div>
+                    <div class="right-section d-none d-sm-block">
+                        <a href="#">Lihat data lengkap<i class="mdi mdi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="section-content row">
+                    <div class="col-12 col-sm-6 col-lg gut-8">
+                        <div class="card case-card confirmed">
+                            <div class="icon-wrapper"> <i class="mdi mdi-emoticon-sick"></i> </div>
+                            <h2>361.867</h2>
+                            <span><i class="mdi mdi-plus"></i>2055<i class="mdi mdi-chevron-double-up"></i>235</span>
+                            <p>total pasien terkonfirmasi</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg gut-8">
+                        <div class="card case-card treated">
+                            <div class="icon-wrapper"> <i class="mdi mdi-emoticon-sad"></i> </div>
+                            <h2>361.867</h2>
+                            <span><i class="mdi mdi-plus"></i>2055<i class="mdi mdi-chevron-double-up"></i>235</span>
+                            <p>total pasien dalam perawatan</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg gut-8">
+                        <div class="card case-card recovered">
+                            <div class="icon-wrapper"> <i class="mdi mdi-emoticon-excited"></i> </div>
+                            <h2>361.867</h2>
+                            <span><i class="mdi mdi-plus"></i>2055<i class="mdi mdi-chevron-double-up"></i>235</span>
+                            <p>total pasien sembuh</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg gut-8">
+                        <div class="card case-card died">
+                            <div class="icon-wrapper"> <i class="mdi mdi-emoticon-dead"></i> </div>
+                            <h2>361.867</h2>
+                            <span><i class="mdi mdi-plus"></i>2055<i class="mdi mdi-chevron-double-up"></i>235</span>
+                            <p>total pasien meninggal</p>
+                        </div>
+                    </div>
+
+                    <div class="covid-map col-12 gut-8">
+                        <div class="card">
+                            <div class="row" style="margin-bottom: 0;">
+                                <div class="col-12 col-md-8">
+                                    <img src="./src/images/Map-sample.png" alt="" width="100%">
+                                </div>
+                                <div class="data col-12 col-md-4">
+                                    <h3>Kalimantan Tengah</h3>
+                                    <div class="case-card confirmed">
+                                        <h3>4233</h3>
+                                        <p>terkonfirmasi</p>
+                                    </div>
+                                    <div class="case-card treated">
+                                        <h3>401</h3>
+                                        <p>dirawat</p>
+                                    </div>
+                                    <div class="case-card recovered">
+                                        <h3>3684</h3>
+                                        <p>sembuh</p>
+                                    </div>
+                                    <div class="case-card died">
+                                        <h3>148</h3>
+                                        <p>meninggal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="edukasi">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Informasi Edukasi COVID-19</h2>
+                </div>
+                <div class="section-content row">
+                    <nav class="col-12 col-sm-4 col-lg-2">
+                        <i class="mdi mdi-chevron-left d-block d-sm-none"></i>
+                        <ul>
+                            <!-- Navigasi untuk info edukasi diinject di sini -->
+                        </ul>
+                        <i class="mdi mdi-chevron-right d-block d-sm-none"></i>
+                    </nav>
+                    <div class="col col-lg-6 col-lg-8" id="edu-body">
+                        <!-- disini diisi konten informasi -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="berita">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Berita Terkait COVID-19</h2>
+                </div>
+                <div class="section-content">
+                    <div id="news-container" class="row">
+                        <!-- list berita diinject di sini -->
+                    </div>
+                    <div class="button btn-main center">Lihat Semua</div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="dev-profile">
+                <img src="./src/images/dev-profile.png" alt="Foto Azka Nahya Amanta">
+                <div>
+                    <h2>Azka Nahya Amanta</h2>
+                    <p>SMAN 1 Bunguran Timur Laut</p>
+                    <h3>Front-End Web Developer</h3>
+                    <div class="contacts">
+                        <i class="mdi mdi-linkedin"></i>
+                        <i class="mdi mdi-instagram"></i>
+                        <i class="mdi mdi-github"></i>
+                    </div>
+                </div>
+            </div>
+            <p>Azka Nahya Amanta - 2020</p>
+        </div>
+    </footer>
+    <script src="./src/app.js" type="module"></script>
+</body>
+</html>

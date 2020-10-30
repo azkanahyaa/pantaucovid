@@ -1,0 +1,34 @@
+.left-section {
+    float: left;
+}
+
+.right-section {
+    float: right;
+}
+
+.confirmed {
+    color: $red;
+}
+
+.treated {
+    color: $base;
+}
+
+.recovered {
+    color: $green;
+}
+
+.died {
+    color: $grey;
+}
+
+.gut-8 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
